@@ -1,0 +1,35 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+.buttons{
+    width: 80px;
+
+    height: 80px;
+    margin: 2px;
+    border-radius: 50%;
+
+}
+
+#myInput{
+    height: 50px;
+    width:350px;
+
+}
+
+.numbers{
+    background-color: pink;
+
+}
+
+.equations{
+    background-color: mediumpurple;
+
+
+}

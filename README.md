@@ -1,2 +1,2 @@
 # Calculator-
-simple calculator 
+my ugly and simple calculator 

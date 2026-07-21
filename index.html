@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
 
+    <div  style="padding-top:20px ;padding-bottom: 40px ; padding-left: 50px ; padding-right: 50px ;background-color: beige;;border: 2px solid black">
+    <input id="myInput" style="border-radius: 20%" value="">
+    <div>
+        <button class="buttons numbers"   onclick="insertClick(this.textContent)">7</button>
+        <button class="buttons numbers"   onclick="insertClick(this.textContent)">8</button>
+        <button class="buttons numbers"   onclick="insertClick(this.textContent)">9</button>
+        <button class="buttons equations"   onclick="insertClick(this.textContent)">/</button>
+    </div>
+    <div>
+        <button class="buttons  numbers" onclick="insertClick(this.textContent)">4</button>
+        <button class="buttons  numbers"  onclick="insertClick(this.textContent)">5</button>
+        <button class="buttons  numbers"  onclick="insertClick(this.textContent)">6</button>
+        <button class="buttons equations" onclick="insertClick(this.textContent)">*</button>
+    </div>
+    <div>
+        <button class="buttons  numbers"   onclick="insertClick(this.textContent)">1</button>
+        <button class="buttons  numbers"  onclick="insertClick(this.textContent)">2</button>
+        <button class="buttons  numbers"  onclick="insertClick(this.textContent)">3</button>
+        <button class="buttons equations"   onclick="insertClick(this.textContent)">+</button>
+    </div>
+    <div>
+        <button class="buttons  numbers"   onclick="insertClick(this.textContent)">0</button>
+        <button class="buttons equations" style="background-color: darkred"  onclick="deletingEverything()">DELETE</button>
+        <button class="buttons equations"  onclick="insertClick(this.textContent)">-</button>
+        <button class="buttons" style="background-color: cadetblue" onclick="calculate()">=</button>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
