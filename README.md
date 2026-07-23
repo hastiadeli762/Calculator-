@@ -1,6 +1,6 @@
 # Calculator-
 my ugly and simple calculator 
-![img.png](img.png)
+
 <img width="730" height="830" alt="image" src="https://github.com/user-attachments/assets/046cf646-7c32-431a-a800-22d14f54bb88" />
 
 
